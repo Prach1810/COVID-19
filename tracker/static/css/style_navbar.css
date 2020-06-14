@@ -1,0 +1,138 @@
+.bg-col {
+  background-color: white;
+  box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 768px){
+.navbar{
+  position: sticky;
+  height: 58px;
+  transition: 0.32s;
+}
+.fixedd {
+  font-size: 24px;
+  /*position: fixed;*/
+  height: 80px;
+  transition: 0.25s;
+}
+}
+.ul {
+  text-align: center;
+}
+.navbar-brand img {
+  height: 55px;
+  width: 80px;
+  /*    border: 1px solid black;*/
+}
+.nav-link:link {
+  font-family: "Raleway", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+@media (max-width: 767px){
+  .ul{
+    text-align: center;
+  }
+  .nav-link:link{
+    text-align: center;
+    margin-left: 200px;
+    width: 100px;
+  }
+  .sign-in{
+    margin-left: 200px;
+    width: 100px;
+  }
+  .row1{
+    display: none;
+  }
+}
+.nav-link:hover {
+  border-radius: 20px;
+  background-color: #ba2d89 !important;
+  color: white !important;
+}
+.current {
+  /* background-color: #33b288 !important; */
+  border-radius: 25px;
+  color: #ba2d89 !important;
+  font-weight: bold;
+}
+.sign-in {
+  font-family: "Raleway", sans-serif;
+  background-color: #d0d0d0;
+  color: black !important;
+  border-radius: 25px;
+  font-weight: 600;
+  /*        margin-right: 50px;*/
+  font-size: 1.1rem;
+  padding: 5px;
+}
+.sign-in:hover {
+  color: white !important;
+  background-color: #ba2d89;
+}
+ul .signin {
+  padding: 3px;
+}
+/*NAVBAR CSS -close----*/
+/*--drop down css--*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ba2d89;
+  width: 380%;
+  left: -140px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.row1 div {
+  float: left;
+  /*  width: 33.33%;*/
+  padding: 10px;
+  background-color: #fff;
+  /*  height: 250px;*/
+  border-radius: 15px;
+  border: 4px solid #ba2d89;
+}
+
+.row1 div a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.row1 div a:hover {
+  border-radius: 20px;
+  background-color: #ba2d89;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .dropdown-content {
+    left: 0;
+    width: 100%;
+  }
+  .row1 div {
+    width: 100%;
+    height: auto;
+  }
+}
+/*---close---*/

@@ -1,0 +1,47 @@
+[_ngcontent-nqr-c1] {
+
+    overflow: hidden;
+
+}
+*, ::after, ::before {
+
+    box-sizing: border-box;
+
+}
+.box-big[_ngcontent-nqr-c1] {
+
+    box-shadow: 1px 8px 20px 
+
+grey;
+
+min-height: 655px;
+
+margin: 50px 2px 50px 20px;
+
+background-color:
+
+    #fff;
+
+}
+
+.top-box[_ngcontent-nqr-c1] {
+
+    /*margin-bottom: 15px;*/
+    box-shadow: 1px 8px 20px grey;
+margin: 50px 2px 50px 20px;
+}
+
+.bottom-box[_ngcontent-nqr-c1] {
+
+    margin-top: 15px;
+    box-shadow: 1px 8px 20px grey;
+margin: 50px 2px 50px 20px;
+}
+.page-wrapper{
+padding-top: 25px;
+}
+h2{
+margin-bottom: 50px;
+}
+
+
